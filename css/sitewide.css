@@ -1,0 +1,139 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+/* 
+div, main, article, section, aside, hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;		
+}
+*/
+
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+body {
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #222;
+	background-image: url("../img/背景.jpg");
+	background-size: 100%;
+}
+
+/*	Generally, you w
+
+ill only want one container element in
+	the document, wrapping around the main content area. 
+	If you have more than one container, you are probably doing
+	something wrong. 	
+*/
+.container {
+	margin-top: 40%;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: 25%;
+	width: 90%;
+	max-width: 1200px;
+	padding: 2em;
+	color:white;
+	font-size: 15px;
+	
+}
+.left{
+	position: fixed;
+	
+}
+.right{
+	
+}
+
+.link{
+	margin-right: 25%;
+	margin-bottom: 1em;
+	margin-left: 40%;
+	width: 16%;
+	border:3px solid #0DFFBB;
+	background-color: white;
+	color: white;
+
+}
+.link-R{
+	margin-right: 25%;
+	margin-bottom: 1em;
+	margin-left: 44%;
+	width: 13%;
+	border:3px solid #0DFFBB;
+	background-color: white;
+	color: white;
+}
+.people{
+	margin-top: 10%;
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr ;
+	grid-template-rows:2fr 2fr 2fr 2fr 2fr;
+	grid-gap:1.5em;
+	width: 40%;
+	margin-left: 38%;
+}
+.box {
+	padding: 0.5em 1em 1em 1em;
+	background-color: #B6E7F0;
+}
+.box-b{
+	grid-row:1/2;
+	grid-columns:2/3;
+	background-image: url("../img/images1.jpg");
+}
+.box-a{
+	grid-row:1/2;
+	grid-columns:1/2;
+	background-image: url("../img/download2.jpg")
+}
+.box-c{
+	grid-row:2/3;
+	grid-columns:1/2;
+	background-image: url("../img/Cnt4_Fr53-1.jpg")
+
+}
+.box-d{
+	grid-row:2/3;
+	grid-columns:2/3;
+	background-image: url("../img/Richard_Saul_Wurman1.jpg")
+}
+.box-e{
+	grid-row:3/4;
+	grid-columns:1/2;
+	background-image: url("../img/Xq6a6u9n_400x400.jpg")
+}
+.box-f{
+	grid-row:3/4;
+	grid-columns:2/3;
+	background-image: url("../img/ae45167ee2ea8afacd20e1fa9570bad936f1df9b_254x191.jpg")
+}
+.box-g{
+	grid-row:4/5;
+	grid-columns:1/2;
+	background-image: url("../img/30b1f70dfe48e086efa2979ad4d8266aafc0a2e5_254x191.jpg")
+}
+
+
+a{
+	color:#3D3E42;
+}
+
+
